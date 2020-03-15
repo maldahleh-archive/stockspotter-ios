@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6735E8A4241EE6270074D34E /* stockspotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stockspotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6735E8A4241EE6270074D34E /* StockSpotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockSpotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6735E8A7241EE6270074D34E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6735E8A9241EE6270074D34E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6735E8AB241EE6270074D34E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		6735E8A5241EE6270074D34E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6735E8A4241EE6270074D34E /* stockspotter.app */,
+				6735E8A4241EE6270074D34E /* StockSpotter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,7 +84,7 @@
 			);
 			name = stockspotter;
 			productName = stockspotter;
-			productReference = 6735E8A4241EE6270074D34E /* stockspotter.app */;
+			productReference = 6735E8A4241EE6270074D34E /* StockSpotter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -292,7 +292,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.codeovo.stockspotter;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = StockSpotter;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,7 +310,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.codeovo.stockspotter;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = StockSpotter;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
