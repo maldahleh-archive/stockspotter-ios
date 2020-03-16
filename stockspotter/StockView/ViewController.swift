@@ -9,12 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var stockCollectionView: UICollectionView!
+    var dataSource: UICollectionViewDataSource!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        self.dataSource = StockCollectionViewDataSource(collectionView: stockCollectionView)
+        stockCollectionView.dataSource = dataSource
     }
-
-
 }
 
